@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetBottom="0dp"
+    android:insetLeft="0dp"
+    android:insetRight="0dp"
+    android:insetTop="0dp">
+    <item android:state_selected="false">
+        <shape android:shape="rectangle"
+            android:tint="@color/appAccent">
+            <corners android:radius="10dp"/>
+            <solid android:color="?attr/colorControlHighlight"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle"
+            android:tint="@color/appAccentSelected">
+            <corners android:radius="10dp"/>
+            <solid android:color="@color/appAccentSelected"/>
+        </shape>
+    </item>
+</selector>

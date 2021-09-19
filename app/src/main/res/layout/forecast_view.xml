@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/forecast_background"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/weather_forecast_img"
+        android:layout_gravity="center"
+        android:layout_width="35dp"
+        android:src="@drawable/ic_cloud"
+        android:layout_height="35dp"
+        android:contentDescription="@string/forecast" />
+    <TextView
+        android:minWidth="70dp"
+        android:id="@+id/weather_forecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:gravity="center"
+        android:paddingEnd="5dp"
+        android:text=""/>
+
+</LinearLayout>

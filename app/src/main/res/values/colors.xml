@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="progress_1">#ffffff</color>
+    <color name="progress_2">#FFFF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="background_accent">#c1E5Fd</color>
+    <color name="appAccent">#47BAE8</color>
+    <color name="appAccentSelected">#6BCAF1</color>
+    <color name="forecastTint">#FFF2F2F2</color>
+</resources>
